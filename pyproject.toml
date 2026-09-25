@@ -1,0 +1,9 @@
+[project]
+name = "knife-edge-diffraction-service"
+version = "1.0.0"
+description = "Single knife-edge obstacle diffraction loss kernel over HTTP"
+requires-python = ">=3.12"
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
